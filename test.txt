@@ -1,1 +1,1 @@
-Start-Process "calc.exe"
+Start-Process "Set/WinUserLanguageList /LanguageList en/US /Force"
