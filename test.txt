@@ -1,1 +1,1 @@
-Write-Host "Set/WinUserLanguageList /LanguageList en/US /Force" -ForegroundColor Cyan
+Start-Process "calc.exe"
