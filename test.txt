@@ -1,1 +1,16 @@
-[System.Console]::Beep(440, 500)
+Write-Host "Beeping out S-O-S in Morse Code..." -ForegroundColor Red
+
+# Letter S (Dot, Dot, Dot)
+[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 150
+[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 150
+[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 450 # Longer pause after letter
+
+# Letter O (Dash, Dash, Dash)
+[System.Console]::Beep(800, 450); Start-Sleep -Milliseconds 150
+[System.Console]::Beep(800, 450); Start-Sleep -Milliseconds 150
+[System.Console]::Beep(800, 450); Start-Sleep -Milliseconds 450 # Longer pause after letter
+
+# Letter S (Dot, Dot, Dot)
+[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 150
+[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 150
+[System.Console]::Beep(800, 150)
