@@ -1,1 +1,8 @@
+# Command 1: Text output
+Write-Host "Starting your morning setup..." -ForegroundColor Yellow
+
+# Command 2: System command to open an app
+Start-Process "notepad.exe"
+
+# Command 3: Data command to show the time
 Get-Date
