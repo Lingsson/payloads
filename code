@@ -4,4 +4,4 @@ Write-Host "Initializing Voice Core..." -ForegroundColor Cyan
 $Voice = New-Object -ComObject SAPI.SpVoice
 
 # Change the text inside the quotation marks to make it say whatever you want!
-$Voice.Speak("Hello user. Please protect your computer better next time.")
+$Voice.Speak("Hello user.")
