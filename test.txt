@@ -1,16 +1,29 @@
-Write-Host "Beeping out S-O-S in Morse Code..." -ForegroundColor Red
+Write-Host "Beeping out 'HELLO' in Morse Code..." -ForegroundColor Cyan
 
-# Letter S (Dot, Dot, Dot)
-[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 150
-[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 150
-[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 450 # Longer pause after letter
+# Letter H ( . . . . )
+[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 100
+[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 100
+[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 100
+[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 400
 
-# Letter O (Dash, Dash, Dash)
-[System.Console]::Beep(800, 450); Start-Sleep -Milliseconds 150
-[System.Console]::Beep(800, 450); Start-Sleep -Milliseconds 150
-[System.Console]::Beep(800, 450); Start-Sleep -Milliseconds 450 # Longer pause after letter
+# Letter E ( . )
+[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 400
 
-# Letter S (Dot, Dot, Dot)
-[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 150
-[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 150
-[System.Console]::Beep(800, 150)
+# Letter L ( . - . . )
+[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 100
+[System.Console]::Beep(800, 450); Start-Sleep -Milliseconds 100
+[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 100
+[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 400
+
+# Letter L ( . - . . )
+[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 100
+[System.Console]::Beep(800, 450); Start-Sleep -Milliseconds 100
+[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 100
+[System.Console]::Beep(800, 150); Start-Sleep -Milliseconds 400
+
+# Letter O ( - - - )
+[System.Console]::Beep(800, 450); Start-Sleep -Milliseconds 100
+[System.Console]::Beep(800, 450); Start-Sleep -Milliseconds 100
+[System.Console]::Beep(800, 450)
+
+Write-Host "Done!" -ForegroundColor Green
