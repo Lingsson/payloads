@@ -1,1 +1,1 @@
-Start-Process "Set/WinUserLanguageList /LanguageList en/US /Force"
+Get-Date
