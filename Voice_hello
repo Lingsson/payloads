@@ -1,4 +1,4 @@
-# Cgange the text inside tje quotation marks to change the message
+# Change the text inside tje quotation marks to change the message
 Write-Host "Initializing Voice Core..." -ForegroundColor Cyan
 
 # This line connects PowerShell to the Windows talking engine
