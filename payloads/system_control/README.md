@@ -1,4 +1,6 @@
-# This script interacts with Windows device management interfaces (PnP and network adapters) using PowerShell.
+# Disable device
+
+This script interacts with Windows device management interfaces (PnP and network adapters) using PowerShell.
 
 It demonstrates how system hardware states can be modified using built-in Windows management commands such as `Get-PnpDevice` and `Disable-PnpDevice`.
 
